@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+
+<body>
+    <!-- This form is developed to register someone in medical application
+          the mean idea, is usefull for pold people to register with no problem -->
+
+    >
+    <form class="register-form">
+        <div class="register-form-container">
+            <label>Username</label>
+            <input input id="username" type="text" class="input">
+            <label>Email Address</label>
+            <input input id="username" type="email" class="input">
+            <label>Add a comment</label>
+            <textarea input id="comments" type="text" class="input" rows="4" cols="50"></textarea>
+            <label>What is your overall opinion about this article...</label>
+            <div>
+                <input id="option-positive" type="radio" name="tab" class="radio-option">
+                <label class="tab">Positive</label>
+                <input id="option-neutral" type="radio" name="tab" class="radio-option">
+                <label class="tab">Neutral</label>
+                <input id="option-negative" type="radio" name="tab" class="radio-option">
+                <label class="tab">Negative</label>
+            </div>
+            <div>
+                <input id="check" type="checkbox" class="check" checked>
+                <label for="check"><span class="icon"></span> I want to subscribe to the newsletter</label>
+            </div>
+            <button type="submit" id="submit-button" value="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
